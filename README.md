@@ -1,7 +1,9 @@
 # Timer
 C++ Timer
 
-- 支持周期性执行任务
-- 支持中断任务
-- 支持同步定时执行任务
-- 支持异步定时执行任务
+Write with C++ std::chrono
+
+- Support for periodic task execution
+- Support interrupt task
+- Support for synchronous timing task execution
+- Supports asynchronous timing of tasks
