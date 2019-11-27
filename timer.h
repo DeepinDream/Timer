@@ -20,7 +20,6 @@ public:
         auto duration = std::chrono::duration_cast<std::chrono::duration<_Rep, _Period>>(end - start);
 
         if(isFirstTime == true || duration >= cycle_time){
-            //             std::cout << "get ServingCellPro per 10 seconds........." << std::endl;
             start = std::chrono::system_clock::now();
             isFirstTime = false;
             return task();
